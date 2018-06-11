@@ -13,7 +13,7 @@ This is all I've with my dell to run hackintosh perfectly. You can get it to you
 	* Mac OSx High Sierra 10.13.5
 
 * **Status:**
-	* All things work well, even HDMI audido and more
+	* All things work well, even HDMI audio and more
 
 * **Link for more**
 	* https://tonymacx86.com
