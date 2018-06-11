@@ -1,0 +1,23 @@
+3. Open Terminal
+
+4. Type:
+
+Code (Text):
+sudo -s
+5. Type:
+
+Code (Text):
+chown -R 0:0 ~/Desktop/AppleIntelInfo.kext
+6. Type:
+
+Code (Text):
+chmod -R 755 ~/Desktop/AppleIntelInfo.kext
+7. Type:
+
+Code (Text):
+kextload ~/Desktop/AppleIntelInfo.kext
+8. Type:
+
+Code (Text):
+cat /tmp/AppleIntelInfo.dat
+The amount of power states will then show in the Terminal window.
