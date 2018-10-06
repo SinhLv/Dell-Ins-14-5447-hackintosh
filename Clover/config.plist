@@ -187,6 +187,20 @@
 					SERBVQ==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change XHCI to XHC</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					WEhDSQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WEhDXw==
+					</data>
+				</dict>
 			</array>
 		</dict>
 		<key>DisabledAML</key>
@@ -226,9 +240,7 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>nv_disable=1 dart=0 kext-dev-mode=1 -ath9565</string>
-		<key>CustomLogo</key>
-		<string>Theme</string>
+		<string>-lilubeta nv_disable=1 dart=0 kext-dev-mode=1 -alcbeta -ath9565</string>
 		<key>DefaultVolume</key>
 		<string>MacOSX</string>
 		<key>NeverHibernate</key>
@@ -404,7 +416,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<string>03</string>
+			<integer>3</integer>
 		</dict>
 		<key>FakeID</key>
 		<dict>
@@ -456,6 +468,18 @@
 					<string>Windows</string>
 					<key>Type</key>
 					<string>Windows</string>
+				</dict>
+				<dict>
+					<key>Disabled</key>
+					<false/>
+					<key>Ignore</key>
+					<false/>
+					<key>Title</key>
+					<string>Kali Linux</string>
+					<key>Type</key>
+					<string>Linux</string>
+					<key>Volume</key>
+					<string>34935C5B-E8CE-4EBA-9BEC-C6AE249FCDEB</string>
 				</dict>
 			</array>
 		</dict>
@@ -632,44 +656,6 @@
 				AQUJAAAIAACHAAAA
 				</data>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>HDMI-audio, port 0105(12), 0x0a260005 0x0a260006, 0x0d220003, 0x0a2e000a, 0x0a26000a</string>
-				<key>Disabled</key>
-				<true/>
-				<key>Find</key>
-				<data>
-				AQUJAAAEAACHAAAA
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>com.apple.driver.AppleIntelFramebufferAzul</string>
-				<key>Replace</key>
-				<data>
-				AQUSAAAIAACHAAAA
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>USB 10.13.4+ by PMHeart</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				g32UDw+DlwQAAA==
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.13.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.usb.AppleUSBXHCI</string>
-				<key>Replace</key>
-				<data>
-				g32UD5CQkJCQkA==
-				</data>
-			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -679,26 +665,24 @@
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
 		<key>ROM</key>
-		<data>
-		qbmrNdiH
-		</data>
+		<string>UseMacAddr0</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
 		<key>#ProductName-MacBookAir</key>
 		<string>MacBookAir6,2</string>
 		<key>BiosReleaseDate</key>
-		<string>02/02/2018</string>
+		<string>04/11/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP111.88Z.0144.B00.1802021223</string>
+		<string>MBP111.88Z.0146.B00.1804111138</string>
 		<key>Board-ID</key>
 		<string>Mac-189A3D4F975D5FFC</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02332310J9F6521M</string>
+		<string>C02339310GUF9H0JC</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -714,28 +698,26 @@
 		<key>FirmwareFeatures</key>
 		<string>0xE80FE137</string>
 		<key>FirmwareFeaturesMask</key>
-		<string>0xFF1FFF3</string>
+		<string>0xFF1FFF3F</string>
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
+		<key>Mobile</key>
+		<true/>
 		<key>PlatformFeature</key>
 		<string>0x02</string>
 		<key>ProductName</key>
 		<string>MacBookPro11,1</string>
 		<key>SerialNumber</key>
-		<string>C02L620NFH00</string>
+		<string>C02LG7ZWFH00</string>
 		<key>SmUUID</key>
-		<string>1C7F63E8-8964-45EA-BAB0-BA8E5535D887</string>
-		<key>Trust</key>
-		<true/>
+		<string>70954375-0BC8-45D0-8B5C-B510BA481443</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
-		<key>CustomUUID</key>
-		<string>2B777ACB-366F-45D9-B368-398DAD960F44</string>
 		<key>InjectKexts</key>
 		<string>Detect</string>
 	</dict>

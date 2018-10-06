@@ -10,7 +10,7 @@ This is all I've with my dell to run hackintosh perfectly. You can get it to you
 	* Wireless: Intel AC 3160 ngff (replaced by DW1707 (ar9565))
 
 * **Operating System:**
-	* Mac OSx High Sierra 10.13.5
+	* Mac OSx High Sierra 10.14
 
 * **Status:**
 	* All things work well, even HDMI audio and more
