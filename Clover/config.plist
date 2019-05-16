@@ -427,6 +427,8 @@
 		<dict>
 			<key>Inject</key>
 			<integer>3</integer>
+			<key>ResetHDA</key>
+			<true/>
 		</dict>
 		<key>FakeID</key>
 		<dict>
@@ -758,17 +760,17 @@
 		<key>#ProductName-MacBookAir</key>
 		<string>MacBookAir6,2</string>
 		<key>BiosReleaseDate</key>
-		<string>02/02/2018</string>
+		<string>04/11/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP111.88Z.0144.B00.1802021223</string>
+		<string>MBP111.88Z.0146.B00.1804111138</string>
 		<key>Board-ID</key>
 		<string>Mac-189A3D4F975D5FFC</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02KC2DHFH001161M</string>
+		<string>C02330401J9DKG28C</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -796,9 +798,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro11,1</string>
 		<key>SerialNumber</key>
-		<string>C02KC2DHFH00</string>
+		<string>C02L40HFFH00</string>
 		<key>SmUUID</key>
-		<string>F34183C6-6D32-4EBA-A008-BD397A7EA67A</string>
+		<string>C7DE8717-C820-4DEE-833C-73BCB7818AAB</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>

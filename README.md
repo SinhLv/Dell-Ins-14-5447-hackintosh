@@ -1,6 +1,8 @@
 # Dell-Ins-14-5447-hackintosh
 
-This is all I've with my dell to run hackintosh perfectly. You can get it to your own.
+This is all kext and clove config I use to make my hackintosh run perfectly (as I thought).
+
+You can get it to your own and don't forget to change SMBIOS for avoiding duplicate info.
 
 * **Specs:**
 	* CPU: Intel Core i5-4210U 1.7Ghz Turbo 2.7Ghz
@@ -10,11 +12,11 @@ This is all I've with my dell to run hackintosh perfectly. You can get it to you
 	* Wireless: Intel AC 3160 ngff (replaced by DW1820A (BCM94350ZAE))
 
 * **Operating System:**
-	* Mac OSx High Sierra 10.14.2
+	* MacOS 10.14.2 Mojave
 
 * **Status:**
-	* All things work well, Wireless with full 5Ghz support and native airdrop, handoff
+	* All things work well, Graphics, USB, HDMI, audio fine quality.. Wireless with full 5Ghz support and native airdrop, handoff isn't work right now and still finding the way to make it work..
 
 * **Link for more**
-	* https://tonymacx86.com
+	* https://www.tonymacx86.com/forums/mojave-laptop-support.196/
 	* https://insanelymac.com
