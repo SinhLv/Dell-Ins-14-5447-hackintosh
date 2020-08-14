@@ -5,6 +5,7 @@ This is all kext and clove config I use to make my hackintosh run perfectly (as 
 You can get it for your own and don't forget to change SMBIOS for avoiding duplicate info.
 
 * **Specs:**
+	* BIOS: A10 (Please note and confirm this on your Dell)
 	* CPU: Intel Core i5-4210U 1.7Ghz Turbo 2.7Ghz
 	* RAM: 8Gb DDR3L SDRAM
 	* VGA: HD4400 onboard and AMD R7 M265 (disabled)
